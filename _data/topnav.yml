@@ -7,17 +7,17 @@ topnav:
       - title: 2. Nonparametric Bayesian 
         group: Nonparametric Bayesian
         url: /docs/npb/0
-      - title: 3. Miscellaneous Topics in Modern Probability
-        group: Miscellaneous Topics in Modern Probability
+      - title: 3. Advanced Topics in Modern Probability
+        group: Advanced Topics in Modern Probability
         url: /docs/mpt/0
   - title: 1. Statistical Learning
     items:
-      - title: 1. Kolmogorov Probability Axiom
-        group: "Kolmogorov Probability Axiom"
-        url: /docs/mpsl/0101
-      - title: 2. Elementary Measure Theory
-        group: "Elementary Measure Theory"
-        url: /docs/mpsl/0201
+      - title: 1. Elementary Probability Theory
+        group: "Probability Theory"
+        url: /docs/mpsl/0100
+      - title: 2. Norm and Hilbert spaces
+        group: "Norm and Hilbert spaces"
+        url: /docs/mpsl/0200
   - title: 2. Bayesian
     group: "Nonparametric Bayesian "
     url: /docs/npb/0
