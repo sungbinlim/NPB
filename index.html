@@ -10,6 +10,7 @@ layout: default
  	      <a href="https://www.dropbox.com/s/huik76zchc9n5dl/CV_sungbin.pdf?dl=0" target="_blank"><img src="profile_0.png" width=170 height=170 border="0"></a>
       </p>
     </div>
+  </div>
     
     <div class="well-sm">
       <h3>New Posts</h3>
@@ -26,35 +27,6 @@ layout: default
 	      {% endfor %}
       </ul>
     </div>
-
-
-<!-- post list -->
-{% for post in paginator.posts %}
-<li><a href="{{post.url | prepend: site.baseurl}}"><h3>{{post.title}}</h3></a></li>
-{% endfor %}
-
-
-
-.pagination a, .pagination span {
-    padding: 7px 18px;
-    border: 1px solid #eee;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: #ffffff;
-    display: inline-block;
-  }
-
-.pagination a {    
-    &:hover {
-        background-color: #f1f1f1;
-        color: #333;
-    }
- }
-
-.pagination {
-    text-align: center;
- }
-
 
 
 <nav class="pagination" role="navigation">
@@ -98,7 +70,7 @@ layout: default
   </p>
 </nav>
 
-  </div>
+</div>
   
   <div class="col-sm-12 col-md-6">
     <div class="well-sm">
