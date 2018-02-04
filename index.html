@@ -10,7 +10,7 @@ layout: default
  	      <a href="https://www.dropbox.com/s/huik76zchc9n5dl/CV_sungbin.pdf?dl=0" target="_blank"><img src="profile_0.png" width=170 height=170 border="0"></a>
       </p>
     </div>
-  </div>
+  
     
     <div class="well-sm">
       <h3>New Posts</h3>
@@ -26,10 +26,8 @@ layout: default
 	      </li>
 	      {% endfor %}
       </ul>
-    </div>
 
-
-<nav class="pagination" role="navigation">
+      <nav class="pagination" role="navigation">
   <p>
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
@@ -68,7 +66,13 @@ layout: default
     </span>
     {% endif %}
   </p>
-</nav>
+</nav>  
+
+
+    </div>
+
+
+
 
 </div>
   
