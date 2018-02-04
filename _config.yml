@@ -17,11 +17,15 @@ highlighter: rouge
 markdown: kramdown
 plugins:
   - jemoji
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-paginate: 3
-paginate_path: /page:num/
+pagination:
+  enabled: true
+  per_page: 3
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
