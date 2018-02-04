@@ -24,3 +24,4 @@ kramdown:
   syntax_highlighter: rouge
 
 pagination: 3
+paginate_path: /page:num/
