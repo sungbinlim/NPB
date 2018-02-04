@@ -22,3 +22,6 @@ plugins:
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+paginate: 3
+paginate_path: /page:num/
