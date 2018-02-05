@@ -38,7 +38,7 @@ title: All of SL
       {% if paginator.previous_page == 1 %}
       <li><a href="/">Prev</a></li>
       {% else %}
-      <li><a href="/page{{ paginator.previous_page }}">Prev</a></li>
+      <li><a href="/page{{ paginator.previous_page | prepend: site.baseurl }}">Prev</a></li>
       {% endif %}
     {% else %}
     <li><span class="disabled">Prev</span></li>
