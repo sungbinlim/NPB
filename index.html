@@ -63,7 +63,7 @@ title: All of SL
   </ul>
 
 {% if paginator.total_pages > 1 %}
-<a class="pagination">
+<ul class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}
@@ -85,7 +85,7 @@ title: All of SL
   {% else %}
     <span>Next &raquo;</span>
   {% endif %}
-</a>
+</ul>
 {% endif %}
 
 <!--        <nav class="pagination" role="navigation">
