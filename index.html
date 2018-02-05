@@ -54,7 +54,7 @@ title: All of SL
       {% if count == paginator.page %}
       <li><span class="active">{{ count }}</span></li>
       {% else %}
-      <li><a href="/page{{ count }}">{{ count }}</a></li>
+      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ count }}</a></li>
       {% endif %}
     {% endfor %}
     {% if paginator.next_page %}
