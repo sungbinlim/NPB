@@ -52,7 +52,7 @@ title: All of SL
     {% endif %}
     {% for count in (2..paginator.total_pages) %}
       {% if count == paginator.page %}
-      <li><span class="disabled">{{ count }}</span></li>
+      <li><span class="active">{{ count }}</span></li>
       {% else %}
       <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', count }}">{{ count }}</a></li>
       {% endif %}
