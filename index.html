@@ -52,9 +52,9 @@ title: All of SL
     {% endif %}
 
     <!-- 테스트 1-->
-    <!--<li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> 1 / {paginator.total_pages} </a></li> -->
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> 1 / {paginator.total_pages} </a></li> 
 
-    <!-- 테스트 2-->
+    <!-- 테스트 2-
     {% for count in (2..paginator.total_pages) %}
       {% if count == paginator.page %}
       <li><span class="active">{{ count }}</span></li>
@@ -62,7 +62,7 @@ title: All of SL
       <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', count }}">{{ count } of {paginator.total_pages}}</a></li>
       {% endif %}
     {% endfor %}
-    
+    -->
 
     {% for count in (2..paginator.total_pages) %}
       {% if count == paginator.page %}
