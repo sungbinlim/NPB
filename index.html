@@ -20,7 +20,7 @@ title: All of SL
     <div class="well-sm">
       <h3>New Posts</h3>
       <ul class="post-list">
-	      {% for post in paginator.posts limit:2 %}
+	      {% for post in paginator.posts limit:1 %}
 	      <li>
 	        <h4>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -50,7 +50,7 @@ title: All of SL
     {% else %}
     <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">1</a></li>
     {% endif %}
-    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{paginator.page}} / {{paginator.total_pages}} </a></li>
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Page {{paginator.page}} of {{paginator.total_pages}}</a></li>
     {% for count in (2..paginator.total_pages) %}
       {% if count == paginator.page %}
       <li><span class="active">{{ count }}</span></li>
