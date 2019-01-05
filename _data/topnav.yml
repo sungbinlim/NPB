@@ -1,27 +1,21 @@
 topnav:
   - title: Contents
     items:
-      - title: 1. Mathematical Principles of Statistical Learning
-        group: Mathematical Principles of Statistical Learning
-        url: /docs/mpsl/0
-      - title: 2. Nonparametric Bayesian 
-        group: Nonparametric Bayesian
-        url: /docs/npb/0
-      - title: 3. Advanced Topics in Modern Probability
-        group: Advanced Topics in Modern Probability
-        url: /docs/mpt/0
-  - title: 1. Statistical Learning
+      - title: 1. Statistical Machine Learning
+        group: Bayesian Machine Learning
+        url: /docs/sml/0
+      - title: 2. Miscellaneous Topics
+        group: Miscellaneous Topics in Machine Learning
+        url: /docs/mt/0
+  - title: 1. Statistical ML
     items:
-      - title: 1. Elementary Probability Theory
-        group: "Probability Theory"
-        url: /docs/mpsl/0101
-      - title: 2. Norm and Hilbert spaces
-        group: "Norm and Hilbert spaces"
-        url: /docs/mpsl/0201
-  - title: 2. Bayesian
-    group: "Nonparametric Bayesian "
-    url: /docs/npb/0
-  - title: 3. Probability
-    group: "Miscellaneous Topics in Modern Probability"
-    url: /docs/mpt/0
+      - title: 1. Mixture Models
+        group: "Mixture Models"
+        url: /docs/sml/0101
+      - title: 2. Variational Methods
+        group: "Variational Methods"
+        url: /docs/sml/0201
+  - title: 2. Miscellaneous
+    group: "Miscellaneous Topics in Machine Learning"
+    url: /docs/mt/0
 
