@@ -1,13 +1,12 @@
 # Site settings
-title: All of SL
+title: All of Bayesian
 
 email: "sunnybenlim@gmail.com"
-url: "http://sungbinlim.github.io"
+url: "http://bayesian.github.io"
 github_url: "http://github.com/sungbinlim/sl"
 github_editurl: "/blob/gh-pages"
-github_profile: "https://www.dropbox.com/s/huik76zchc9n5dl/CV_sungbin.pdf?dl=0"
+github_profile: "http://github.com/sungbinlim"
 baseurl: "/sl"
-disqus_shortname: sungbinlimgithub
 
 exclude:
   - README.md
